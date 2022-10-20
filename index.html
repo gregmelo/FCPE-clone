@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <title>Se connecter à FCPE</title>
+</head>
+<body>
+    <div class="header">
+        <div class="bandeau">
+            <img src="./images/logo-fcpe.png" alt="logo FCPE">
+            <div>
+                Portail unique de connexion aux plateformes <br>
+                numériques de la FCPE
+            </div>
+        </div>
+        <div class="connection">
+            <header class="title">
+                <h1 class="h1title">Identification</h1>
+            </header>
+            <div class="form">
+                <div class="form-group">
+                    <label for="username" class="pf-c-form__label pf-c-form__label-text">Adresse mail</label>
+                        <input id="username" class="pf-c-form-control" name="username" value="" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="pf-c-form__label pf-c-form__label-text">Mot de passe</label>
+                    <input id="password" class="pf-c-form-control" name="password" type="password">
+                </div>
+                <div class="form-group login-settings">
+                    <div id="options">
+                            <div class="checkbox">
+                                <label>
+                                        <input id="rememberMe" name="rememberMe" type="checkbox"> Se souvenir de moi
+                                </label>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <span><a href="#">Mot de passe oublié ?</a></span>
+                        </div>
+                  </div>
+                </div>
+                <p class="info">Première connexion ? Cliquez sur Mot de passe oublié ? et renseignez l'adresse mail indiquée lors de votre adhésion</p>
+                <div id="buttons" class="form-group">
+                    <input type="hidden" id="id-hidden-input" name="credentialId">
+                    <input class="submit" name="login" type="submit" value="Connexion">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
